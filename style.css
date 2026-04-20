@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f7f7f7;
+  color: #222;
+  line-height: 1.5;
+}
+
+header {
+  background: white;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  margin-right: 16px;
+  color: #222;
+  text-decoration: none;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}

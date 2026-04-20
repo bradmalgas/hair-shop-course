@@ -8,7 +8,8 @@
 
     visitorCount = 1;
     console.log(visitorCount);
-
+}
+{
     console.log("--------------- Task 2: Types ---------------");
     const name = "Curl Cream";
     const price = 120;
@@ -17,7 +18,8 @@
     console.log(typeof name); // "string"
     console.log(typeof price); // "number"
     console.log(typeof inStock); // "boolean"
-
+}
+{
     console.log("--------------- Task 3: Functions ---------------");
     function greet(name) {
         return "Hello, " + name + "!";
@@ -33,7 +35,8 @@
 
     console.log(calculateDiscount(120, 10)); // 108
     console.log(calculateDiscount(80, 25)); // 60
-
+}
+{
     console.log("--------------- Task 4: Conditionals ---------------");
     function describePrice(price) {
         if (price < 50) {

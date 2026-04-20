@@ -1,4 +1,6 @@
+// Each task is wrapped in { } so we can reuse names like products across tasks.
 {
+    console.log("--------------- Task 1: Arrays ---------------");
     const products = ["Curl Cream", "Scalp Oil", "Bonnet"];
 
     console.log(products[0]); // "Curl Cream" (arrays start at 0)
@@ -8,6 +10,7 @@
     console.log(products); // ["Curl Cream", "Scalp Oil", "Bonnet", "Hair Mask"]
 }
 {
+    console.log("--------------- Task 2: Objects ---------------");
     const product = {
         name: "Curl Cream",
         price: 120,
@@ -28,6 +31,7 @@
     console.log(products[1].price); // 90
 }
 {
+    console.log("--------------- Task 3: Arrow functions ---------------");
     // Old style
     function doubleOld(n) {
         return n * 2;
@@ -46,6 +50,7 @@
     console.log(doubleShort(4));
 }
 {
+    console.log("--------------- Task 4: Destructuring ---------------");
     const product = { name: "Curl Cream", price: 120 };
 
     // Without destructuring
@@ -67,6 +72,7 @@
     console.log(second); // "green"
 }
 {
+    console.log("--------------- Task 5: Template Literals ---------------");
     const name = "Curl Cream";
     const price = 120;
 
@@ -77,6 +83,7 @@
     console.log(`The ${name} costs R${price}`);
 }
 {
+    console.log("--------------- Task 6: Spread Operator ---------------");
     const products = ["Curl Cream", "Scalp Oil"];
     const moreProducts = [...products, "Bonnet", "Hair Mask"];
     console.log(moreProducts); // ["Curl Cream", "Scalp Oil", "Bonnet", "Hair Mask"]

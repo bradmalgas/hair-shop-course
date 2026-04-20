@@ -8,8 +8,13 @@ body {
 
 header {
   background: white;
-  padding: 20px;
+  padding: 16px 20px;
   border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 nav a {
@@ -34,4 +39,20 @@ main {
 .product-card img {
   max-width: 100%;
   height: auto;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+nav {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  nav {
+    font-size: 16px;
+  }
 }
